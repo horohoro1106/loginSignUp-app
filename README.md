@@ -1,3 +1,3 @@
 # Login/SignUp App
 
-##(Angular & Firebase)
+## (Angular & Firebase)
