@@ -1,0 +1,12 @@
+<div class="col-sm-5 col-sm-offset-2">
+  <h3>Sign up</h3>
+  <form (ngSubmit)="onSubmit(signupForm)" #signupForm="ngForm">
+    <div class="form-group">
+      <label>Email address</label>
+        <input ngModel name="email" required type="email" class="form-control" />
+      <label>Password</label>
+        <input ngModel name="password" required type="email" class="form-control" />
+    </div>
+    <button [disabled]="!signupForm.valid" type="submit" class="btn btn-block btn-primary">Submit</button>
+  </form>
+</div>
